@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai 1</title>
+    <style>
+      .form {
+        width: 600px;
+        min-height: 500px;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:gainsboro;
+      }
+      .input-form {
+        width: 45%;
+        display: inline-block;
+        margin-bottom: 24px;
+    
+      }
+      .input-colum-r{
+       margin-left: 30px;
+      }
+      .input {
+        width: 95%;
+        height: 20px;
+        padding: 5px;
+      }
+      .select {
+
+        width: 100%;
+        height: 34px;
+        padding: 3px;
+      }
+      .button{
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+        height: 30px;
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <h2>Try A Free Sample</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi rem
+        inventore vitae alias libero ipsum iusto adipisci quia eos nisi
+        perspiciatis soluta, exercitationem accusamus praesentium natus maxime
+        minima vel aperiam nobis. Cupiditate fuga dolor modi nihil culpa omnis,
+        quas recusandae amet reprehenderit exercitationem. Amet nihil porro
+        blanditiis necessitatibus illo dolorum.
+      </p>
+      <form action="1" >
+        <div class="input-form">
+          <label for="firstname"
+            ><div><b>FirstName</b></div>
+            <input class="input" type="text" id="firstname" placeholder="John"/>
+          </label>
+        </div>
+        <div class="input-form input-colum-r">
+          <label for="lastname"
+            ><div><b>LastName</b></div>
+            <input class="input" type="text" id="lastname" placeholder="Smith" />
+          </label>
+        </div>
+        <div class="input-form">
+          <label for="email-address"
+            ><div><b>Email Address</b></div>
+            <input class="input" type="email" id="email-address" placeholder="john@example.com" />
+          </label>
+        </div>
+        <div class="input-form input-colum-r">
+          <label for="address"
+            ><div><b>Address</b></div>
+            <input class="input" type="text" id="address" placeholder="Silk St" />
+          </label>
+        </div>
+        <div class="input-form">
+          <label for="city"
+            ><div><b>City</b></div>
+            <input class="input" type="text" id="city" placeholder="London"/>
+          </label>
+        </div>
+        <div class="input-form input-colum-r">
+          <label for="state"
+            ><div><b>State</b><span style="opacity: 0.6;"> (optional)</span></div>
+            <input class="input" type="text" id="state" />
+          </label>
+        </div>
+        <div class="input-form ">
+          <label for="zip-code"
+            ><div><b>ZIP-code</b></div>
+            <input class="input" type="text" id="zip-code" placeholder="EC2Y8DS" />
+          </label>
+        </div>
+        <div class="input-form input-colum-r">
+          <label for="coutry"
+            ><div><b>Coutry</b></div>
+            <select class="select" name="coutry" id="coutry">
+              <option value="0">United Kingdom</option>
+              <option value="1">China</option>
+              <option value="2">Japan</option>
+              <option value="3">Korea</option>
+            </select>
+          </label>
+        </div>
+        <button class="button">SEND ME FREE COFFEE</button>
+      </form>
+    </div>
+  </body>
+</html>

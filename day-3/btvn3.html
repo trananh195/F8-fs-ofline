@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bai 3</title>
+    <style>
+        form{
+            width: 300px;
+            background-color: gray;
+            padding: 20px;
+        }
+        label{
+            display: inline-block;
+            margin-bottom: 10px;
+            width: 120px;
+        }
+        input, select{
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+      
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <form action="1">
+        <div>
+          <label for="username">Username</label>
+          <input type="text" id="username" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="text" id="username" />
+        </div>
+        <div>
+          <label for="city">City of Employment</label>
+          <input type="text" id="username" />
+        </div>
+        <div>
+          <label for="username">Web Sever</label>
+          <select name="web-sever" id="">
+            <option value="0">--Choose a sever --</option>
+            <option value="1">Sever1</option>
+            <option value="2">Sever2</option>
+            <option value="">Sever3</option>
+          </select>
+        </div>
+        <div style="display: flex; align-items: center">
+          <label for="">Please specefy your role:</label>
+          <div style="width: 100px">
+            <label><input type="radio" name="role" value="0" />Admin</label>
+            <label>
+              <input type="radio" name="role" value="1" />Manager
+            </label>
+            <label> <input type="radio" name="role" value="2" />Guest</label>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center">
+          <label for="">Single Sign-on to the following</label>
+          <div style="width: 100px">
+            <label>
+              <input type="checkbox" name="source" value="mail" checked />Mail
+            </label>
+            <label>
+              <input type="checkbox" name="source" value="self-service" />
+              Self-service
+            </label>
+            <label>
+              <input type="checkbox" name="source" value="Payroll" />Payroll
+            </label>
+          </div>
+        </div>
+        <div style="margin-left: 120px">
+          <button>Login</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <form action="https://api-gateway.fullstack.edu.vn/action_page.php">
+        <input type="text" name="fullname" placeholder="Họ và tên">
+        <div><input type="email" name="email" placeholder="Email"></div>
+        <button>Gửi</button>
+
+    </form> -->
+    <form action="">
+      <div>
+        <label for="lbl-name">Họ và tên</label>
+        <input
+          type="text"
+          name="name"
+          id="lbl-name"
+          placeholder="Họ và tên"
+          required
+          maxlength="10"
+        />
+      </div>
+      <div>
+        <label for="lbl-email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="lbl-email"
+          placeholder="Email"
+          required
+        />
+      </div>
+      <div>
+        <label for="lbl-email">Mật khẩu</label>
+        <input
+          type="password"
+          name="password"
+          id="lbl-pasword"
+          placeholder="Mật khẩu"
+          required
+        />
+      </div>
+      <div>
+        <label for="lbl-email">Tuổi</label>
+        <input
+          type="number"
+          name="age"
+          id="lbl-age"
+          placeholder="Tuổi"
+          required
+        />
+      </div>
+      <div>
+        <label for="lbl-avatar">Avatar</label>
+        <input type="file" name="avatar" id="lbl-avatar" required />
+      </div>
+      <div>
+        <label>Giới tính</label>
+        <label
+          ><input type="radio" name="gender" id="" value="0" />Không biết</label
+        >
+        <label><input type="radio" name="gender" id="" value="1" />Nam</label>
+        <label><input type="radio" name="gender" id="" value="2" />Nữ</label>
+      </div>
+      
+      <div>
+        <label>Nguồn</label>
+        <label
+          ><input type="checkbox" name="source" id="" value="google" />Google</label
+        >
+        <label><input type="checkbox" name="source" id="" value="facebook" />Facebook</label>
+        <label><input type="checkbox" name="source" id="" value="web" />web</label>
+      </div>
+      <div>
+        <label for="lbl-date">Ngày sinh</label>
+        <input type="date" name="birthday" id="lbl-date">
+      </div>
+      <div>
+        <label for="lbl-message">Tin nhắn</label>
+        <textarea name="message" id="lbl-message" cols="30" rows="10" placeholder="Nội dung tin nhắn" style="resize: none;"></textarea>
+      </div>
+      <div>
+        <label for="province">Tỉnh/Thành phố</label>
+        <select name="provinces" id="province">
+            <option value="0">Chọn Tỉnh/Thành phố</option>
+            <option value="1" selected>Hà Nội</option>
+            <option value="2">Hồ Chí Minh</option>
+            <option value="3">Đà Nẵng</option>
+      </div>
+
+      <button>Gửi</button>
+    </form>
+  </body>
+</html>
